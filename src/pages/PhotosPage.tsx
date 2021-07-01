@@ -1,5 +1,10 @@
 import React from 'react';
+import ListViewController from '../viewControllers/photos/ListViewController';
 
 export default function PhotosPage() {
-  return <div>Photos Page</div>;
+  return (
+    <div>
+      <ListViewController />
+    </div>
+  );
 }
